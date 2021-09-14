@@ -1,9 +1,0 @@
-D:\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.deps.json
-D:\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.dll
-D:\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.pdb
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csprojAssemblyReference.cache
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.AssemblyInfoInputs.cache
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.AssemblyInfo.cs
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.CoreCompileInputs.cache
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.dll
-D:\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.pdb
