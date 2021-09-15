@@ -20,6 +20,7 @@ namespace FlowersHub.Services
             flower.Title = GetMetaContentByProperty(doc, "og:title");
             flower.Description = GetMetaContentByProperty(doc, "og:description")
                 .Replace("&nbsp;", " ")
+                .Replace("&#34;", "")
                 .Replace("Состав:", " Состав:")
                 .Replace("букета:", "букета: ");
             flower.ImageUrl = GetMetaContentByProperty(doc, "og:image");

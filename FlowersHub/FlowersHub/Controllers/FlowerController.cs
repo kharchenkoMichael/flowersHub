@@ -52,5 +52,17 @@ namespace FlowersHub.Controllers
         {
             await _flowerService.AddColorType(key, variations);
         }
+
+
+        [HttpPost("update/flowerTypes")]
+        public async Task UpdateFlowerTypes()
+        {
+            await _flowerService.UpdateAllFlowerTypes();
+        }
+        [HttpPost("update/colorTypes")]
+        public async Task UpdateColorTypes()
+        {
+            await _flowerService.UpdateAllColorTypes();
+        }
     }
 }

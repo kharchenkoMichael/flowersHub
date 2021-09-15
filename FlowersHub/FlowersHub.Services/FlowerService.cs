@@ -132,6 +132,7 @@ namespace FlowersHub.Services
             var flowers = _context.Flowers.ToList();
             flowers.ForEach(flower => flower.Description = flower.Description
                 .Replace("&nbsp;", " ")
+                .Replace("&#34;", "") 
                 .Replace("Состав:", " Состав:")
                 .Replace("букета:", "букета: "));
             await _context.SaveChangesAsync();
@@ -168,6 +169,44 @@ namespace FlowersHub.Services
             _context.Colors.Add(colorType);
             var flowers = _context.Flowers.Include(item => item.Colors).ToList();
             flowers.ForEach(flower => UpdateColor(flower, colorType));
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAllFlowerTypes()
+        {
+            await RemoveFlowerTypesFromAllFlowers();
+            _context.Flowers
+                .Include(f=>f.FlowerTypes)
+                .ToList()
+                .ForEach(UpdateFlowerTypes);
+            await _context.SaveChangesAsync();
+        }
+
+        private async Task RemoveFlowerTypesFromAllFlowers()
+        {
+            _context.Flowers
+                .Include(f => f.FlowerTypes)
+                .ToList()
+                .ForEach(f => f.FlowerTypes = new List<FlowerType>());
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAllColorTypes()
+        {
+            await RemoveColorTypesFromAllFlowers();
+            _context.Flowers
+                .Include(f => f.Colors)
+                .ToList()
+                .ForEach(UpdateColors);
+            await _context.SaveChangesAsync();
+        }
+
+        private async Task RemoveColorTypesFromAllFlowers()
+        {
+            _context.Flowers
+                .Include(f => f.Colors)
+                .ToList()
+                .ForEach(f => f.Colors = new List<ColorType>());
             await _context.SaveChangesAsync();
         }
 

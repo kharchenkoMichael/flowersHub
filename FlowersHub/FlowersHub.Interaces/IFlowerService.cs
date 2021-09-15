@@ -17,5 +17,7 @@ namespace FlowersHub.Interfaces
         Task FixDescriptions();
         Task AddFlowerType(string key, string[] variations);
         Task AddColorType(string key, string[] variations);
+        Task UpdateAllFlowerTypes();
+        Task UpdateAllColorTypes();
     }
 }
