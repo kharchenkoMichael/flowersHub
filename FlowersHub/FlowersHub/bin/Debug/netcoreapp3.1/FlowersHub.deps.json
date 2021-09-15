@@ -32,6 +32,7 @@
       "FlowersHub/1.0.0": {
         "dependencies": {
           "FlowersHub.Data": "1.0.0",
+          "FlowersHub.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
           "Swashbuckle.AspNetCore": "6.2.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -302,6 +303,17 @@
         },
         "compile": {
           "FlowersHub.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.36": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.36.0",
+            "fileVersion": "1.11.36.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1560,24 +1572,9 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "FlowerHub.Infrustructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "5.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
-          "Microsoft.Extensions.Configuration.Json": "5.0.0"
-        },
-        "runtime": {
-          "FlowerHub.Infrustructure.dll": {}
-        },
-        "compile": {
-          "FlowerHub.Infrustructure.dll": {}
-        }
-      },
       "FlowersHub.Data/1.0.0": {
         "dependencies": {
-          "FlowerHub.Infrustructure": "1.0.0",
+          "FlowersHub.Infrastructure": "1.0.0",
           "FlowersHub.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
@@ -1589,12 +1586,56 @@
           "FlowersHub.Data.dll": {}
         }
       },
+      "FlowersHub.Infrastructure/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.36",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Json": "5.0.0"
+        },
+        "runtime": {
+          "FlowersHub.Infrastructure.dll": {}
+        },
+        "compile": {
+          "FlowersHub.Infrastructure.dll": {}
+        }
+      },
+      "FlowersHub.Interfaces/1.0.0": {
+        "dependencies": {
+          "FlowersHub.Model": "1.0.0"
+        },
+        "runtime": {
+          "FlowersHub.Interfaces.dll": {}
+        },
+        "compile": {
+          "FlowersHub.Interfaces.dll": {}
+        }
+      },
       "FlowersHub.Model/1.0.0": {
+        "dependencies": {
+          "FlowersHub.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "FlowersHub.Model.dll": {}
         },
         "compile": {
           "FlowersHub.Model.dll": {}
+        }
+      },
+      "FlowersHub.Services/1.0.0": {
+        "dependencies": {
+          "FlowersHub.Data": "1.0.0",
+          "FlowersHub.Interfaces": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "FlowersHub.Services.dll": {}
+        },
+        "compile": {
+          "FlowersHub.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3177,6 +3218,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "HtmlAgilityPack/1.11.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dCuPhd6Mcdz0oyaSidPqZZiaKcVaBnIqCQlvgJx7Qr5PJAjSatSIVPmuOwpMjbtR8mqoXyUbWVKxuairGGauJg==",
+      "path": "htmlagilitypack/1.11.36",
+      "hashPath": "htmlagilitypack.1.11.36.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -3947,17 +3995,27 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "FlowerHub.Infrustructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "FlowersHub.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "FlowersHub.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlowersHub.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "FlowersHub.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlowersHub.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

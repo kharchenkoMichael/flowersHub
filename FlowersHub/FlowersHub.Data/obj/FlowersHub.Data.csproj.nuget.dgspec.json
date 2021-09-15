@@ -4,12 +4,12 @@
     "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj": {
+    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj",
-        "projectName": "FlowerHub.Infrastructure",
-        "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj",
+        "projectUniqueName": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
+        "projectName": "FlowersHub.Infrastructure",
+        "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\aweer\\.nuget\\packages\\",
         "outputPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.36, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -104,8 +108,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj": {
-                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj"
+              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
+                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
               },
               "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj": {
                 "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj"
@@ -186,7 +190,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
+                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

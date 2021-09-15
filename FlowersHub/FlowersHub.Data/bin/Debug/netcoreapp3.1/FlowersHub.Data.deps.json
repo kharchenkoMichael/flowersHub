@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "FlowersHub.Data/1.0.0": {
         "dependencies": {
-          "FlowerHub.Infrustructure": "1.0.0",
+          "FlowersHub.Infrastructure": "1.0.0",
           "FlowersHub.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
@@ -17,6 +17,14 @@
         },
         "runtime": {
           "FlowersHub.Data.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.36": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.36.0",
+            "fileVersion": "1.11.36.0"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1179,8 +1187,9 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "FlowerHub.Infrustructure/1.0.0": {
+      "FlowersHub.Infrastructure/1.0.0": {
         "dependencies": {
+          "HtmlAgilityPack": "1.11.36",
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
@@ -1188,10 +1197,13 @@
           "Microsoft.Extensions.Configuration.Json": "5.0.0"
         },
         "runtime": {
-          "FlowerHub.Infrustructure.dll": {}
+          "FlowersHub.Infrastructure.dll": {}
         }
       },
       "FlowersHub.Model/1.0.0": {
+        "dependencies": {
+          "FlowersHub.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "FlowersHub.Model.dll": {}
         }
@@ -1203,6 +1215,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dCuPhd6Mcdz0oyaSidPqZZiaKcVaBnIqCQlvgJx7Qr5PJAjSatSIVPmuOwpMjbtR8mqoXyUbWVKxuairGGauJg==",
+      "path": "htmlagilitypack/1.11.36",
+      "hashPath": "htmlagilitypack.1.11.36.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -1939,7 +1958,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "FlowerHub.Infrustructure/1.0.0": {
+    "FlowersHub.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

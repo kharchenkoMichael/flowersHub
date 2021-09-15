@@ -1,0 +1,9 @@
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Interaces.deps.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Interaces.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Interaces.pdb
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.csprojAssemblyReference.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.AssemblyInfoInputs.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.AssemblyInfo.cs
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.csproj.CoreCompileInputs.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interaces.pdb

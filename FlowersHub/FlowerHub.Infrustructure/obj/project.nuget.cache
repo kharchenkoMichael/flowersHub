@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G0X8t4GRthBSpw21vCe6+0wZasAVUkwsppP4rnbCUtSoF58XZYXNmNmJ/OXcbxdawTh5+0udfqK3JpWED1chEA==",
+  "dgSpecHash": "N6ZEwMASJOTD67t1bJlwj3lDhN721NAN7f3NG1FpEx2Zj0GpT3Oy4uBJlyspkOQG8gsSsgsGBGSZ602A3K4wlQ==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowerHub.Infrastructure.csproj",
+  "projectFilePath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aweer\\.nuget\\packages\\htmlagilitypack\\1.11.36\\htmlagilitypack.1.11.36.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\5.0.0\\microsoft.extensions.configuration.environmentvariables.5.0.0.nupkg.sha512",

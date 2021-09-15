@@ -18,20 +18,45 @@ namespace FlowersHub.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("ColorTypeFlower", b =>
+                {
+                    b.Property<string>("ColorsName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("FlowersUrl")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ColorsName", "FlowersUrl");
+
+                    b.HasIndex("FlowersUrl");
+
+                    b.ToTable("ColorTypeFlower");
+                });
+
+            modelBuilder.Entity("FlowerFlowerType", b =>
+                {
+                    b.Property<string>("FlowerTypesName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("FlowersUrl")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("FlowerTypesName", "FlowersUrl");
+
+                    b.HasIndex("FlowersUrl");
+
+                    b.ToTable("FlowerFlowerType");
+                });
+
             modelBuilder.Entity("FlowersHub.Model.ColorType", b =>
                 {
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("FlowerUrl")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Variations")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Name");
-
-                    b.HasIndex("FlowerUrl");
 
                     b.ToTable("Colors");
                 });
@@ -47,6 +72,9 @@ namespace FlowersHub.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Group")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
@@ -54,6 +82,9 @@ namespace FlowersHub.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Updater")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Url");
@@ -66,38 +97,42 @@ namespace FlowersHub.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("FlowerUrl")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Variations")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Name");
 
-                    b.HasIndex("FlowerUrl");
-
                     b.ToTable("FlowerTypes");
                 });
 
-            modelBuilder.Entity("FlowersHub.Model.ColorType", b =>
+            modelBuilder.Entity("ColorTypeFlower", b =>
                 {
+                    b.HasOne("FlowersHub.Model.ColorType", null)
+                        .WithMany()
+                        .HasForeignKey("ColorsName")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("FlowersHub.Model.Flower", null)
-                        .WithMany("Colors")
-                        .HasForeignKey("FlowerUrl");
+                        .WithMany()
+                        .HasForeignKey("FlowersUrl")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
-            modelBuilder.Entity("FlowersHub.Model.FlowerType", b =>
+            modelBuilder.Entity("FlowerFlowerType", b =>
                 {
+                    b.HasOne("FlowersHub.Model.FlowerType", null)
+                        .WithMany()
+                        .HasForeignKey("FlowerTypesName")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("FlowersHub.Model.Flower", null)
-                        .WithMany("FlowerTypes")
-                        .HasForeignKey("FlowerUrl");
-                });
-
-            modelBuilder.Entity("FlowersHub.Model.Flower", b =>
-                {
-                    b.Navigation("Colors");
-
-                    b.Navigation("FlowerTypes");
+                        .WithMany()
+                        .HasForeignKey("FlowersUrl")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

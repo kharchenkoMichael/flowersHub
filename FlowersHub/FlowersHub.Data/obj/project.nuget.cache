@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "riwc1ONVaZtgN7tnWQNb4NnX3gpq0/pT4ekHWE1a9qV73nr3k4czEtz6G2xrYxscExNgmZMMg4g8zSsEgO5C1w==",
+  "dgSpecHash": "xxs21zWFjxP7Aqjqvavr/sM6iNE2NhQCyZeYqVn3Bgv5YdMOdRZ6xORSUzEDWEWpOtHWjnHM8kR2Ed+ifsD/lw==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aweer\\.nuget\\packages\\htmlagilitypack\\1.11.36\\htmlagilitypack.1.11.36.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\aweer\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

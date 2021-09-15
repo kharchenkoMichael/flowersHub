@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlowerHub.Infrustructure\FlowerHub.Infrastructure.csproj" />
+    <ProjectReference Include="..\FlowerHub.Infrustructure\FlowersHub.Infrastructure.csproj" />
     <ProjectReference Include="..\FlowersHub.Model\FlowersHub.Model.csproj" />
   </ItemGroup>
 

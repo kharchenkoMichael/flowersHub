@@ -13,7 +13,23 @@ namespace FlowersHub.Model
         public string Currency { get; set; }
         public string Price { get; set; }
         public string ImageUrl { get; set; }
+        public string Group { get; set; }
+        public string Updater { get; set; }
         public List<FlowerType> FlowerTypes { get; set; }
         public List<ColorType> Colors { get; set; }
+
+        public Flower()
+        {
+            FlowerTypes = new List<FlowerType>();
+            Colors = new List<ColorType>();
+        }
+
+        public Flower(string url, string updater)
+        {
+            Url = url;
+            Updater = updater;
+            FlowerTypes = new List<FlowerType>();
+            Colors = new List<ColorType>();
+        }
     }
 }

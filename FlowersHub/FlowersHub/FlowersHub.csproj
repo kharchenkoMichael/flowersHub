@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FlowersHub.Data\FlowersHub.Data.csproj" />
+    <ProjectReference Include="..\FlowersHub.Services\FlowersHub.Services.csproj" />
   </ItemGroup>
 
 </Project>
