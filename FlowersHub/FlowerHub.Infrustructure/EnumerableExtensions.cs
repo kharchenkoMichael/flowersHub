@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FlowersHub.Infrastructure
 {
@@ -20,6 +21,21 @@ namespace FlowersHub.Infrastructure
             foreach (var item in items)
             {
                 action.Invoke(item);
+            }
+        }
+        public static async Task ForEachAsync(this IEnumerable items, Func<object, Task> action)
+        {
+            foreach (var item in items)
+            {
+                await action.Invoke(item);
+            }
+        }
+
+        public static async Task ForEachAsync<T>(this IEnumerable<T> items, Func<T, Task> action)
+        {
+            foreach (var item in items)
+            {
+                await action.Invoke(item);
             }
         }
     }

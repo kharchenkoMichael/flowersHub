@@ -1,7 +1,11 @@
-﻿namespace FlowersHub.Interfaces
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using FlowersHub.Model;
+
+namespace FlowersHub.Interfaces
 {
     public interface IFlowersSource
     {
-        void Load();
+        Task<List<Flower>> Load();
     }
 }

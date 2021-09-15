@@ -7,6 +7,18 @@ namespace FlowersHub.Infrastructure
 {
     public static class HtmlExtensions
     {
+        public static string[] SplitAndReplace(this string str)
+        {
+            return str.ToLower()
+                .Replace(".", "")
+                .Replace(",", "")
+                .Replace("(", "")
+                .Replace(")", "")
+                .Replace(":", "")
+                .Replace("!", "")
+                .Replace("- ", "")
+                .Split(' ');
+        }
         public static List<HtmlNode> GetByClass(this HtmlNode item, string c)
         {
             var result = new List<HtmlNode>();

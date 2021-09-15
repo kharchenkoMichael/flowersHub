@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using FlowersHub.Interfaces;
 using FlowersHub.Model;
 
@@ -11,9 +12,9 @@ namespace FlowersHub.Services
             {nameof(FlowerUaUpdater), new FlowerUaUpdater()}
         };
 
-        public static void Update(this Flower flower)
+        public static async Task Update(this Flower flower)
         {
-            Updaters[flower.Updater].Update(flower);
+            await Updaters[flower.Updater].Update(flower);
         }
     }
 }

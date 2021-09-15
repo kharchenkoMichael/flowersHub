@@ -11,7 +11,8 @@ namespace FlowersHub.Data
         public DbSet<Flower> Flowers { get; set; }
         public DbSet<ColorType> Colors { get; set; }
         public DbSet<FlowerType> FlowerTypes { get; set; }
-
+        public DbSet<Source> Sources { get; set; }
+        
         public FlowersHubContext()
         {
             _connectionString = SqlConfigurationHelper.ConnectionString();

@@ -2,31 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Threading.Tasks;
+using FlowersHub.Data;
 using FlowersHub.Infrastructure;
 using FlowersHub.Interfaces;
 using FlowersHub.Model;
 using HtmlAgilityPack;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace FlowersHub.Services
 {
     public class FlowerUaSource : IFlowersSource
     {
+        private readonly FlowersHubContext _context;
+
         private readonly string _url = "https://flowers.ua/ru/getproducts";
         private readonly string _sourceType = "filter";
-        private readonly List<string> _sourceIds = new List<string>();
+        private readonly List<string> _sourceIds;
         private readonly int _maxSourceId = 9074;
         private readonly string _sortBy = "4";
         private readonly string _sortType = "0";
         private readonly string _search = "0";
-        public void Load()
+
+        private readonly ILogger _logger;
+
+        public FlowerUaSource(FlowersHubContext context, ILogger logger)
         {
-            var items = GetItems(); 
+            _logger = logger;
+            _context = context;
+            _sourceIds = context.Sources.Select(item => item.Id).ToList();
+        }
+        public async Task<List<Flower>> Load()
+        {
+            _logger.LogInformation("Load");
+            var items = await GetItems(); 
             var flowers = items
+                .Distinct()
                 .Select(item => new Flower(item, nameof(FlowerUaUpdater)))
                 .ToList();
-            flowers.ForEach(item => item.Update());
-
+            await flowers.ForEachAsync(async item => await item.Update());
+            return flowers;
         }
 
         class Result
@@ -41,22 +57,27 @@ namespace FlowersHub.Services
             public string Html { get; set; }
         }
 
-        private List<string> GetItems()
+        private async Task<List<string>> GetItems()
         {
+            _logger.LogInformation("GetItems");
             var result = new List<string>();
 
             if (_sourceIds.Count == 0)
                 for (var i = 0; i <= _maxSourceId; i++)
-                    GetItemsBySourceId(result, i.ToString());
+                    await GetItemsBySourceId(result, i.ToString());
             else
                 foreach (var sourceId in _sourceIds)
-                    GetItemsBySourceId(result, sourceId);
+                    await GetItemsBySourceId(result, sourceId);
 
+            _context.Sources.RemoveRange(_context.Sources);
+            _context.Sources.AddRange(_sourceIds.Select(item => new Source() {Id = item}));
+            await _context.SaveChangesAsync();
             return result;
         }
 
-        private void GetItemsBySourceId(List<string> result, string sourceId)
+        private async Task GetItemsBySourceId(List<string> result, string sourceId)
         {
+            _logger.LogInformation($"GetItemsBySourceId {sourceId}");
             var i = 0;
             while (true)
             {
@@ -70,15 +91,23 @@ namespace FlowersHub.Services
                     {"postedData[sortType]", _sortType},
                     {"postedData[search]", _search}
                 });
-                var response = client.PostAsync(_url, content).Result;
-                var deserializeObject = JsonConvert.DeserializeObject<Result>(response.Content.ReadAsStringAsync().Result);
+                var response = await client.PostAsync(_url, content);
+                var str = await response.Content.ReadAsStringAsync();
                 var doc = new HtmlDocument();
-                doc.LoadHtml(deserializeObject.Data.Html);
+                try
+                {
+                    var deserializeObject = JsonConvert.DeserializeObject<Result>(str);
+                    doc.LoadHtml(deserializeObject.Data.Html);
+                }
+                catch (Exception e)
+                {
+                    return;
+                }
 
                 var items = doc.DocumentNode.GetByClass("visual");
 
                 if (items.Count == 0)
-                    break;
+                    return;
                 
                 if (items.Count != 0 && !_sourceIds.Contains(sourceId))
                     _sourceIds.Add(sourceId);
