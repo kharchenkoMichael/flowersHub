@@ -24,7 +24,6 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\bin\Debug\netcoreapp3.1\Flow
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\bin\Debug\netcoreapp3.1\FlowersHub.Model.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\bin\Debug\netcoreapp3.1\FlowersHub.Model.pdb
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.csprojAssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.AssemblyInfoInputs.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.AssemblyInfo.cs
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.csproj.CoreCompileInputs.cache
@@ -32,3 +31,5 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\Flow
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.genruntimeconfig.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.csproj.AssemblyReference.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Data\obj\Debug\netcoreapp3.1\FlowersHub.Data.GeneratedMSBuildEditorConfig.editorconfig

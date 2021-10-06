@@ -151,7 +151,6 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHu
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHub.Services.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHub.Model.pdb
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.csprojAssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.AssemblyInfoInputs.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.AssemblyInfo.cs
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.csproj.CoreCompileInputs.cache
@@ -167,3 +166,18 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHu
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.genruntimeconfig.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHub.Interfaces.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\FlowersHub.Interfaces.pdb
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.csproj.AssemblyReference.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\angular.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\package-lock.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\package.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.app.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.spec.json

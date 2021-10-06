@@ -2,6 +2,7 @@ using FlowersHub.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
@@ -29,7 +30,14 @@ namespace FlowersHub
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
+            app.UseStaticFiles();
+            if (!env.IsDevelopment())
+            {
+                app.UseSpaStaticFiles();
+            }
+
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>

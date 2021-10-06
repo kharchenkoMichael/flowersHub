@@ -99,7 +99,7 @@ namespace FlowersHub.Services
                     var deserializeObject = JsonConvert.DeserializeObject<Result>(str);
                     doc.LoadHtml(deserializeObject.Data.Html);
                 }
-                catch (Exception e)
+                catch
                 {
                     return;
                 }

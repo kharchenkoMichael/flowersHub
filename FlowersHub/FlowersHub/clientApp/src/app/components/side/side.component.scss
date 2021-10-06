@@ -1,0 +1,22 @@
+.side {
+  width: 280px;
+  z-index: 1350;
+}
+
+.drop-btn[aria-expanded="true"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f106";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.drop-btn[aria-expanded="false"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}

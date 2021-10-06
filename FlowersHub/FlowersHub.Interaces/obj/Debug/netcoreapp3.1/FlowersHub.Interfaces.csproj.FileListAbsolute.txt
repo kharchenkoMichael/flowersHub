@@ -5,10 +5,11 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Model.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Model.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.csprojAssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.AssemblyInfoInputs.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.AssemblyInfo.cs
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.csproj.CoreCompileInputs.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.csproj.CopyComplete
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.pdb
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.csproj.AssemblyReference.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Interaces\obj\Debug\netcoreapp3.1\FlowersHub.Interfaces.GeneratedMSBuildEditorConfig.editorconfig

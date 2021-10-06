@@ -1,0 +1,163 @@
+<div class="h-100 d-flex flex-column">
+  <div
+    class="
+      d-flex
+      align-items-center
+      pb-3
+      mb-3
+      text-white text-decoration-none
+      border-bottom
+    "
+  >
+    <div class="dropdown">
+      <button
+        class="btn btn-dark dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton2"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Сортировка
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-dark"
+        aria-labelledby="dropdownMenuButton2"
+      >
+        <li>
+          <a class="dropdown-item active" href="#">По возрастанию цены</a>
+        </li>
+        <li><a class="dropdown-item" href="#">По убыванию цены</a></li>
+        <li><a class="dropdown-item" href="#">По популярности</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="flex-grow-1" style="overflow-y: auto; overflow-x: hidden">
+    <div
+      class="
+        d-flex
+        align-items-center
+        pb-3
+        mb-3
+        text-white text-decoration-none
+        border-bottom
+      "
+    >
+      <span class="fs-5 fw-semibold">Фильтры</span>
+    </div>
+
+    <ul class="list-unstyled ps-0">
+      <li>
+        <input type="search" class="form-control" placeholder="Search..." />
+      </li>
+      <li class="mb-1">
+        <a
+          class="
+            btn btn-toggle
+            align-items-center
+            rounded
+            collapsed
+            text-white
+            drop-btn
+          "
+          data-bs-toggle="collapse"
+          data-bs-target="#color-collapse"
+          aria-expanded="false"
+        >
+          Цвет
+        </a>
+        <div class="collapse" id="color-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-3 small">
+            <li class="form-check" *ngFor="let color of colors; let i = index">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flowerCheckbox{{ i }}"
+              />
+              <label
+                class="text-white form-check-label rounded"
+                for="flowerCheckbox{{ i }}"
+                >{{ color }}</label
+              >
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <a
+          class="
+            btn btn-toggle
+            align-items-center
+            rounded
+            collapsed
+            text-white
+            drop-btn
+          "
+          data-bs-toggle="collapse"
+          data-bs-target="#flower-collapse"
+          aria-expanded="false"
+        >
+          Цветок
+        </a>
+        <div class="collapse" id="flower-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-3 small">
+            <li
+              class="form-check"
+              *ngFor="let flower of flowers; let i = index"
+            >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flowerCheckbox{{ i }}"
+              />
+              <label
+                class="text-white form-check-label rounded"
+                for="flowerCheckbox{{ i }}"
+                >{{ flower }}</label
+              >
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button
+          class="
+            btn btn-toggle
+            align-items-center
+            rounded
+            collapsed
+            text-white
+            drop-btn
+          "
+          data-bs-toggle="collapse"
+          data-bs-target="#orders-collapse"
+          aria-expanded="false"
+        >
+          Цена
+        </button>
+        <div class="collapse input-group" id="orders-collapse">
+          <span class="input-group-text">Min:</span>
+          <input
+            type="number"
+            min="0"
+            max="1000"
+            aria-label="First name"
+            class="form-control"
+          />
+          <span class="input-group-text">Max:</span>
+          <input
+            type="number"
+            min="0"
+            max="1000"
+            aria-label="Last name"
+            class="form-control"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+  <button
+    class="btn align-items-center rounded-0 collapsed text-white border-top"
+  >
+    Применить
+  </button>
+</div>

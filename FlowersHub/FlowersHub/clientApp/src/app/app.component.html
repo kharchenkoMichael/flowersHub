@@ -1,0 +1,55 @@
+<main>
+  <div
+    *ngIf="toggle"
+    class="position-fixed top-0 bottom-0"
+    style="z-index: 1349; right: 0px; left: 0px; overflow: scroll"
+    (click)="switch($event)"
+  ></div>
+  <div
+    class="position-fixed top-0 bottom-0 p-3 bg-dark text-white side"
+    [ngClass]="{
+      hide: !toggle,
+      show: toggle
+    }"
+  >
+    <app-side></app-side>
+    <div
+      class="
+        position-absolute
+        btn
+        bg-dark
+        rounded-0
+        align-items-center
+        p-0
+        sideIcon
+      "
+      (click)="switch($event)"
+    >
+      <i
+        *ngIf="!toggle"
+        class="fas fa-angle-double-right"
+        style="font-size: 20px; line-height: 30px; color: white"
+      ></i>
+      <i
+        *ngIf="toggle"
+        class="fas fa-angle-double-left"
+        style="font-size: 20px; line-height: 30px; color: white"
+      ></i>
+    </div>
+  </div>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+        <app-flower-item></app-flower-item>
+      </div>
+    </div>
+  </div>
+</main>
