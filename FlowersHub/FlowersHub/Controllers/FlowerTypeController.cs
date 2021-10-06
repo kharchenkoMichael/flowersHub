@@ -16,7 +16,7 @@ namespace FlowersHub.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<string>> GetFlowerType()
+        public async Task<IEnumerable<string>> GetFlowerTypes()
         {
             return await _flowerTypeService.GetAll();
         }

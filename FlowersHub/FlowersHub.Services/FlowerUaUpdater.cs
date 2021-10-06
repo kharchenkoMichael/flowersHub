@@ -25,7 +25,8 @@ namespace FlowersHub.Services
                 .Replace("букета:", "букета: ");
             flower.ImageUrl = GetMetaContentByProperty(doc, "og:image");
             flower.Currency = GetMetaContentByProperty(doc, "product:price:currency");
-            flower.Price = GetMetaContentByProperty(doc, "product:price:amount");
+            if(double.TryParse(GetMetaContentByProperty(doc, "product:price:amount"), out var price))
+                flower.PriceDouble = price;
             flower.Group = GetMetaContentByProperty(doc, "product:item_group_id");
         }
 

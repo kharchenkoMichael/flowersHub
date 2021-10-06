@@ -13,5 +13,6 @@ namespace FlowersHub.Interfaces
         Task UpdateFlower(Flower flower);
         Task<Dictionary<string,int>> GetPopularWords(int count);
         Task FixDescriptions();
+        Task<IEnumerable<Flower>> GetAll(int skip, int take);
     }
 }

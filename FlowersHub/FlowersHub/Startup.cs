@@ -21,6 +21,11 @@ namespace FlowersHub
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
             services.AddFlowersHubServiceProviders();
+
+            services.AddSpaStaticFiles(configuration =>
+            {
+                configuration.RootPath = "ClientApp/dist";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,7 +42,6 @@ namespace FlowersHub
                 app.UseSpaStaticFiles();
             }
 
-
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
@@ -50,6 +54,16 @@ namespace FlowersHub
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = "ClientApp";
+
+                if (env.IsDevelopment())
+                {
+                    spa.UseAngularCliServer(npmScript: "start");
+                }
             });
         }
     }

@@ -5,6 +5,7 @@ using FlowersHub.Data;
 using FlowersHub.Infrastructure;
 using FlowersHub.Interfaces;
 using FlowersHub.Model;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace FlowersHub.Services
@@ -16,14 +17,20 @@ namespace FlowersHub.Services
 
         private readonly IFlowerTypeService _flowerTypeService;
         private readonly IColorTypeService _colorTypeService;
+        private readonly IGroupTypeService _groupTypeService;
 
-        public FlowerService(FlowersHubContext context, IFlowerTypeService flowerTypeService, IColorTypeService colorTypeService, ILogger<FlowerService> logger)
+        public FlowerService(FlowersHubContext context,
+            IFlowerTypeService flowerTypeService,
+            IColorTypeService colorTypeService,
+            IGroupTypeService groupTypeService,
+            ILogger<FlowerService> logger)
         {
             _logger = logger;
             _context = context;
             _sources.Add(new FlowerUaSource(_context, logger));
             _flowerTypeService = flowerTypeService;
             _colorTypeService = colorTypeService;
+            _groupTypeService = groupTypeService;
         }
 
         private readonly List<IFlowersSource> _sources = new List<IFlowersSource>();
@@ -56,6 +63,7 @@ namespace FlowersHub.Services
 
             _flowerTypeService.UpdateFlowerTypes(flower);
             _colorTypeService.UpdateColors(flower);
+            await _groupTypeService.AddGroupType(flower.Group);
 
             await _context.Flowers.AddAsync(flower);
             await _context.SaveChangesAsync();
@@ -80,11 +88,12 @@ namespace FlowersHub.Services
 
             _flowerTypeService.UpdateFlowerTypes(flower);
             _colorTypeService.UpdateColors(flower);
+            await _groupTypeService.AddGroupType(flower.Group);
 
             flowerDb.Title = flower.Title;
             flowerDb.Description = flower.Description;
             flowerDb.Currency = flower.Currency;
-            flowerDb.Price = flower.Price;
+            flowerDb.PriceDouble = flower.PriceDouble;
             flowerDb.ImageUrl = flower.ImageUrl;
             flowerDb.Group = flower.Group;
 
@@ -116,6 +125,15 @@ namespace FlowersHub.Services
                 .Replace("Состав:", " Состав:")
                 .Replace("букета:", "букета: "));
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Flower>> GetAll(int skip, int take)
+        {
+            var result = _context.Flowers.OrderBy(item => item.PriceDouble).Skip(skip);
+            if (take >= 0) {
+                result = result.Take(take);
+            }
+            return await result.ToListAsync();
         }
     }
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Input, Component, OnInit } from '@angular/core';
+import { Flower } from 'src/app/Model/flower';
 
 @Component({
   selector: 'app-flower-item',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FlowerItemComponent implements OnInit {
 
+  @Input()
+  flower: Flower = new Flower(null);
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  cardClick() {
+    if (this.flower.url != null)
+      window.open(this.flower.url, "_blank");
+  }
 }

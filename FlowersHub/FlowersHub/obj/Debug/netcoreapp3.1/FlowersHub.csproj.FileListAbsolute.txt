@@ -175,9 +175,3 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.csproj.AssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub\obj\Debug\netcoreapp3.1\FlowersHub.GeneratedMSBuildEditorConfig.editorconfig
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\angular.json
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\package-lock.json
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\package.json
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.app.json
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.json
-D:\MyProjects\flowersHub\FlowersHub\FlowersHub\bin\Debug\netcoreapp3.1\clientApp\tsconfig.spec.json

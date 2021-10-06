@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using FlowersHub.Interfaces;
 using Microsoft.Extensions.Logging;
+using FlowersHub.Model;
 
 namespace FlowersHub.Controllers
 {
@@ -20,6 +17,12 @@ namespace FlowersHub.Controllers
         {
             _flowerService = flowerService;
             _logger = logger;
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<Flower>> GetFlowers(int skip = 0, int take = -1)
+        {
+            return await _flowerService.GetAll(skip, take);
         }
 
         [HttpPost("load/all")]

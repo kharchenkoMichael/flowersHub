@@ -78,8 +78,8 @@ namespace FlowersHub.Data.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Price")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<double>("PriceDouble")
+                        .HasColumnType("float");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
@@ -103,6 +103,16 @@ namespace FlowersHub.Data.Migrations
                     b.HasKey("Name");
 
                     b.ToTable("FlowerTypes");
+                });
+
+            modelBuilder.Entity("FlowersHub.Model.GroupType", b =>
+                {
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Name");
+
+                    b.ToTable("GroupTypes");
                 });
 
             modelBuilder.Entity("FlowersHub.Model.Source", b =>

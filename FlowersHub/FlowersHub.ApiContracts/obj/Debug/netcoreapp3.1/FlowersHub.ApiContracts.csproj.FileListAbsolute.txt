@@ -1,0 +1,10 @@
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\bin\Debug\netcoreapp3.1\FlowersHub.ApiContracts.deps.json
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\bin\Debug\netcoreapp3.1\FlowersHub.ApiContracts.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\bin\Debug\netcoreapp3.1\FlowersHub.ApiContracts.pdb
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.csproj.AssemblyReference.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.AssemblyInfoInputs.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.AssemblyInfo.cs
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.csproj.CoreCompileInputs.cache
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.dll
+D:\MyProjects\flowersHub\FlowersHub\FlowersHub.ApiContracts\obj\Debug\netcoreapp3.1\FlowersHub.ApiContracts.pdb

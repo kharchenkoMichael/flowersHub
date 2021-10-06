@@ -11,7 +11,7 @@ namespace FlowersHub.Model
         public string Title { get; set; }
         public string Description { get; set; }
         public string Currency { get; set; }
-        public string Price { get; set; }
+        public double PriceDouble { get; set; }
         public string ImageUrl { get; set; }
         public string Group { get; set; }
         public string Updater { get; set; }

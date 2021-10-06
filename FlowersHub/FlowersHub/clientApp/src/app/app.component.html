@@ -2,11 +2,11 @@
   <div
     *ngIf="toggle"
     class="position-fixed top-0 bottom-0"
-    style="z-index: 1349; right: 0px; left: 0px; overflow: scroll"
-    (click)="switch($event)"
+    style="z-index: 1349; right: 0px; left: 0px"
+    (click)="switch()"
   ></div>
   <div
-    class="position-fixed top-0 bottom-0 p-3 bg-dark text-white side"
+    class="position-fixed top-0 bottom-0 p-2 bg-dark text-white side"
     [ngClass]="{
       hide: !toggle,
       show: toggle
@@ -23,7 +23,7 @@
         p-0
         sideIcon
       "
-      (click)="switch($event)"
+      (click)="switch()"
     >
       <i
         *ngIf="!toggle"
@@ -40,16 +40,20 @@
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
-        <app-flower-item></app-flower-item>
+        <app-flower-item
+          *ngFor="let flower of flowers; let i = index"
+          [flower]="flower"
+        ></app-flower-item>
       </div>
+    </div>
+    <div class="d-grid p-5 pb-0">
+      <button
+        type="button"
+        class="btn btn-outline-dark align-self-center"
+        (click)="addNewItems()"
+      >
+        Next
+      </button>
     </div>
   </div>
 </main>

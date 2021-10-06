@@ -71,11 +71,11 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                id="flowerCheckbox{{ i }}"
+                id="colorCheckbox{{ i }}"
               />
               <label
                 class="text-white form-check-label rounded"
-                for="flowerCheckbox{{ i }}"
+                for="colorCheckbox{{ i }}"
                 >{{ color }}</label
               >
             </li>
@@ -119,6 +119,39 @@
         </div>
       </li>
       <li class="mb-1">
+        <a
+          class="
+            btn btn-toggle
+            align-items-center
+            rounded
+            collapsed
+            text-white
+            drop-btn
+          "
+          data-bs-toggle="collapse"
+          data-bs-target="#group-collapse"
+          aria-expanded="false"
+        >
+          Группы
+        </a>
+        <div class="collapse" id="group-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-3 small">
+            <li class="form-check" *ngFor="let group of groups; let i = index">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="groupCheckbox{{ i }}"
+              />
+              <label
+                class="text-white form-check-label rounded"
+                for="groupCheckbox{{ i }}"
+                >{{ group }}</label
+              >
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
         <button
           class="
             btn btn-toggle
@@ -143,6 +176,9 @@
             aria-label="First name"
             class="form-control"
           />
+        </div>
+        <br />
+        <div class="collapse input-group" id="orders-collapse">
           <span class="input-group-text">Max:</span>
           <input
             type="number"
