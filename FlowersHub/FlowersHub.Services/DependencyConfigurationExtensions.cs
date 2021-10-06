@@ -10,6 +10,8 @@ namespace FlowersHub.Services
         {
             services.AddDbContext<FlowersHubContext>();
             services.AddScoped<IFlowerService, FlowerService>();
+            services.AddScoped<IFlowerTypeService, FlowerTypeService>();
+            services.AddScoped<IColorTypeService, ColorTypeService>();
             return services;
         }
     }

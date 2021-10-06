@@ -30,39 +30,15 @@ namespace FlowersHub.Controllers
         }
 
         [HttpGet("popular/words")]
-        public Dictionary<string,int> GetPopularWords(int count)
+        public async Task<Dictionary<string,int>> GetPopularWords(int count)
         {
-            return _flowerService.GetPopularWords(count);
+            return await _flowerService.GetPopularWords(count);
         }
 
         [HttpPost("fix/descriptions")]
         public async Task FixDescriptions()
         {
             await _flowerService.FixDescriptions();
-        }
-
-        [HttpPost("add/flowerType")]
-        public async Task AddFlowerType(string key, string[] variations)
-        {
-            await _flowerService.AddFlowerType(key, variations);
-        }
-
-        [HttpPost("add/colorType")]
-        public async Task AddColorType(string key, string[] variations)
-        {
-            await _flowerService.AddColorType(key, variations);
-        }
-
-
-        [HttpPost("update/flowerTypes")]
-        public async Task UpdateFlowerTypes()
-        {
-            await _flowerService.UpdateAllFlowerTypes();
-        }
-        [HttpPost("update/colorTypes")]
-        public async Task UpdateColorTypes()
-        {
-            await _flowerService.UpdateAllColorTypes();
         }
     }
 }
