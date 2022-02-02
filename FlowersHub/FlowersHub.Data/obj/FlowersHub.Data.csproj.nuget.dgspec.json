@@ -1,32 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj": {}
+    "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
+    "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
         "projectName": "FlowersHub.Infrastructure",
-        "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\aweer\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\obj\\",
+        "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mykhailo.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aweer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mykhailo.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,32 +41,32 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.36, )"
+              "version": "[1.11.40, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -80,39 +84,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj": {
+    "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj",
+        "projectUniqueName": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj",
         "projectName": "FlowersHub.Data",
-        "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj",
-        "packagesPath": "C:\\Users\\aweer\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Data\\obj\\",
+        "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Data\\FlowersHub.Data.csproj",
+        "packagesPath": "C:\\Users\\mykhailo.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aweer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mykhailo.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
-                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
+              "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
               },
-              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj": {
-                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj"
+              "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj": {
+                "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj"
               }
             }
           }
@@ -124,28 +132,28 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -163,36 +171,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj": {
+    "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj",
+        "projectUniqueName": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj",
         "projectName": "FlowersHub.Model",
-        "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj",
-        "packagesPath": "C:\\Users\\aweer\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowersHub.Model\\obj\\",
+        "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\FlowersHub.Model.csproj",
+        "packagesPath": "C:\\Users\\mykhailo.kharchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowersHub.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aweer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mykhailo.kharchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
-                "projectPath": "D:\\MyProjects\\flowersHub\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
+              "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mykhailo.kharchenko\\Documents\\CodeRepository\\MyProjects\\FlowersHub\\FlowerHub.Infrustructure\\FlowersHub.Infrastructure.csproj"
               }
             }
           }
@@ -204,8 +216,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -221,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

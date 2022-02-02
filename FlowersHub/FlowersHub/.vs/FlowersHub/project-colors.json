@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "360a78e7-168b-4bed-988f-b948134a3732": {
+      "ProjectGuid": "360a78e7-168b-4bed-988f-b948134a3732",
+      "DisplayName": "FlowersHub",
+      "ColorIndex": 0
+    },
+    "76049e8a-0def-41cb-bb6b-aae80cf19ced": {
+      "ProjectGuid": "76049e8a-0def-41cb-bb6b-aae80cf19ced",
+      "DisplayName": "FlowersHub.Services",
+      "ColorIndex": 1
+    },
+    "87e6527a-c600-402b-ac01-94d1eebed818": {
+      "ProjectGuid": "87e6527a-c600-402b-ac01-94d1eebed818",
+      "DisplayName": "FlowersHub.Data",
+      "ColorIndex": 2
+    },
+    "c51944ee-3ff6-4ee1-b3b2-138bbf60e167": {
+      "ProjectGuid": "c51944ee-3ff6-4ee1-b3b2-138bbf60e167",
+      "DisplayName": "FlowersHub.ApiContracts",
+      "ColorIndex": 3
+    },
+    "d27ee83b-4555-4681-95cf-d477c90dd7d5": {
+      "ProjectGuid": "d27ee83b-4555-4681-95cf-d477c90dd7d5",
+      "DisplayName": "FlowersHub.Infrastructure",
+      "ColorIndex": 4
+    },
+    "b63cb2cd-68c1-4a24-820f-ba650cff7d2f": {
+      "ProjectGuid": "b63cb2cd-68c1-4a24-820f-ba650cff7d2f",
+      "DisplayName": "FlowersHub.Interfaces",
+      "ColorIndex": 5
+    },
+    "6f81b32d-64f5-4c0a-843d-1d24a52378e7": {
+      "ProjectGuid": "6f81b32d-64f5-4c0a-843d-1d24a52378e7",
+      "DisplayName": "FlowersHub.Model",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

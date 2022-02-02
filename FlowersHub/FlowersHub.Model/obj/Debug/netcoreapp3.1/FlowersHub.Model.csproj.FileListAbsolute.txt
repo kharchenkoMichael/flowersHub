@@ -20,3 +20,16 @@ D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\Flo
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.CopyComplete
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.AssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.deps.json
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Model.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.AssemblyReference.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.AssemblyInfoInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.AssemblyInfo.cs
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.CoreCompileInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.csproj.CopyComplete
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\netcoreapp3.1\FlowersHub.Model.pdb

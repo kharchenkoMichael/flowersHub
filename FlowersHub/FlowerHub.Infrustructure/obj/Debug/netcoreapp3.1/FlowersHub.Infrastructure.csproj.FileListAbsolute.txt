@@ -8,3 +8,13 @@ D:\MyProjects\flowersHub\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreap
 D:\MyProjects\flowersHub\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
 D:\MyProjects\flowersHub\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.csproj.AssemblyReference.cache
 D:\MyProjects\flowersHub\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.deps.json
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.AssemblyInfo.cs
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\netcoreapp3.1\FlowersHub.Infrastructure.pdb
