@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text.Json;
 using System.Threading.Tasks;
 using FlowersHub.Data;
 using FlowersHub.Infrastructure;
@@ -9,7 +10,6 @@ using FlowersHub.Interfaces;
 using FlowersHub.Model;
 using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 
 namespace FlowersHub.Services
 {
@@ -96,7 +96,7 @@ namespace FlowersHub.Services
                 var doc = new HtmlDocument();
                 try
                 {
-                    var deserializeObject = JsonConvert.DeserializeObject<Result>(str);
+                    var deserializeObject = JsonSerializer.Deserialize<Result>(str);
                     doc.LoadHtml(deserializeObject.Data.Html);
                 }
                 catch

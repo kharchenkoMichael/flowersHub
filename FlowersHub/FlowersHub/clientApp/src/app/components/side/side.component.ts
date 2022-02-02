@@ -17,7 +17,7 @@ export class SideComponent implements OnInit {
   constructor(
     private flowerTypeService: FlowerTypeService,
     private colorTypeService: ColorTypeService,
-    private groupTypeService: GroupTypeService,
+    private groupTypeService: GroupTypeService
   ) { }
 
   ngOnInit(): void {
