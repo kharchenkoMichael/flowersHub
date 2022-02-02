@@ -23,7 +23,6 @@ C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\Flow
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -37,13 +36,9 @@ C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\Flow
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll

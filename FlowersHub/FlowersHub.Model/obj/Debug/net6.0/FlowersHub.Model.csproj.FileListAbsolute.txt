@@ -1,0 +1,15 @@
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\FlowersHub.Model.deps.json
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\ref\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\FlowersHub.Model.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\bin\Debug\net6.0\FlowersHub.Infrastructure.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.csproj.AssemblyReference.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.AssemblyInfoInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.AssemblyInfo.cs
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.csproj.CoreCompileInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.csproj.CopyComplete
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\ref\FlowersHub.Model.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.Model\obj\Debug\net6.0\FlowersHub.Model.pdb

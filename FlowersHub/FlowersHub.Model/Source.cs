@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FlowersHub.Model
+﻿namespace FlowersHub.Model
 {
     public class Source
     {

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
@@ -97,6 +96,9 @@ namespace FlowersHub.Services
                 try
                 {
                     var deserializeObject = JsonSerializer.Deserialize<Result>(str);
+                    if (deserializeObject?.Data?.Html == null)
+                        return;
+
                     doc.LoadHtml(deserializeObject.Data.Html);
                 }
                 catch

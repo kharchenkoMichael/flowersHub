@@ -1,0 +1,11 @@
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\bin\Debug\net6.0\FlowersHub.ApiContracts.deps.json
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\bin\Debug\net6.0\FlowersHub.ApiContracts.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\bin\Debug\net6.0\ref\FlowersHub.ApiContracts.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\bin\Debug\net6.0\FlowersHub.ApiContracts.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.AssemblyInfoInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.AssemblyInfo.cs
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.csproj.CoreCompileInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\ref\FlowersHub.ApiContracts.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowersHub.ApiContracts\obj\Debug\net6.0\FlowersHub.ApiContracts.pdb

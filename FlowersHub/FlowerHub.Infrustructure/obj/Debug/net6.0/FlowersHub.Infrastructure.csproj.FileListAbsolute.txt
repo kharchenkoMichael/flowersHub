@@ -1,0 +1,12 @@
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\net6.0\FlowersHub.Infrastructure.deps.json
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\net6.0\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\net6.0\ref\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\bin\Debug\net6.0\FlowersHub.Infrastructure.pdb
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.AssemblyInfo.cs
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\ref\FlowersHub.Infrastructure.dll
+C:\Users\mykhailo.kharchenko\Documents\CodeRepository\MyProjects\FlowersHub\FlowerHub.Infrustructure\obj\Debug\net6.0\FlowersHub.Infrastructure.pdb
